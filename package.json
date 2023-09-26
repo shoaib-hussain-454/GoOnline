@@ -6,7 +6,6 @@
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-  
   },
   "keywords": [
     "node",
@@ -27,6 +26,7 @@
     "express-rate-limit": "^6.4.0",
     "firebase-admin": "^11.10.1",
     "firebase-functions": "^4.4.1",
+    "gtts": "^0.2.1",
     "helmet": "^5.1.0",
     "jsonwebtoken": "^9.0.1",
     "mongoose": "^6.7.2",

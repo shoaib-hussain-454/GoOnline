@@ -7,6 +7,11 @@ module.exports = (app) => {
     // task
     require("./task/TaskRoute")(app)
 
+    // AIbot
+
+    require("./AIbot/AIBotRoute")(app)
+
+
     //search auth route 
     // require("./user/searchRoute")(app)
     // require("./user/friendRoute")(app)
